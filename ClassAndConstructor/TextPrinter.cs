@@ -5,12 +5,12 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace ClassAndConstructor
-{
+{    
     class TextPrinter
     {
         public string Name;
         
-
+        //Constructor
         public TextPrinter(string name)
         {
             Name = name;
